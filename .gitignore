@@ -1,4 +1,4 @@
 ckapi/__pycache__
-cksda/local_settings.py
+ckapi/local_settings.py
 *.pyc
 *.pyo
