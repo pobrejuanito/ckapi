@@ -1,1 +1,11 @@
 # ckapi
+
+```
+Django==2.1.5
+django-filter==2.0.0
+djangorestframework==3.9.0
+Markdown==3.0.1
+PyMySQL==0.9.3
+pytz==2018.9
+uWSGI==2.0.17.1
+```
