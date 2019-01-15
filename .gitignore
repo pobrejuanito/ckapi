@@ -1,0 +1,4 @@
+ckapi/__pycache__
+cksda/local_settings.py
+*.pyc
+*.pyo
