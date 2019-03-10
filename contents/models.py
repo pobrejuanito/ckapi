@@ -14,8 +14,10 @@ class CksdaContent(models.Model):
     state = models.IntegerField()
     catid = models.PositiveIntegerField()
     created = models.DateTimeField()
-    urls = models.TextField()
+    speakerName = models.TextField()
+    url = models.TextField()
 
     class Meta:
         managed = False
         db_table = 'cksda_content'
+        ordering = ['-created']

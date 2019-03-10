@@ -12,4 +12,4 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 class SermonSerializer(serializers.ModelSerializer):
    class Meta:
       model = CksdaContent
-      fields = ('title','created')
+      fields = ('id','title','speakerName', 'url', 'created')
